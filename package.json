@@ -1,0 +1,14 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sayan Sivakumaran",
+  "license": "MIT",
+  "scripts": {
+    "compile:js": "babel src/app.js --out-file=public/scripts/app.js --presets=react,env --watch"
+  },
+  "dependencies": {
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1"
+  }
+}
